@@ -1,6 +1,4 @@
 module meeting_escrow::meeting {
-    use sui::object::{UID};
-    use sui::tx_context::{TxContext};
     use sui::coin::{Coin};
     use sui::balance::{Balance};
     use sui::sui::SUI;
